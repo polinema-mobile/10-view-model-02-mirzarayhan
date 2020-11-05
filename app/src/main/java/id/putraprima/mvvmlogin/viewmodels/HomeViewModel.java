@@ -18,6 +18,7 @@ public class HomeViewModel extends ViewModel {
 
     public void doLogin(){
         this.login.setUsername(login.getUsername());
+        this.login.setPassword(login.getPassword());
     }
 
     public LiveData<Login> loginLiveData(){
