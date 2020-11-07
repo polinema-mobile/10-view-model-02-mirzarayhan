@@ -4,12 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import id.putraprima.mvvmlogin.models.LoginUser;
+import id.putraprima.mvvmlogin.models.User;
 
 public class LoginFragmentViewModelFactory implements ViewModelProvider.Factory {
-    private LoginUser user;
+    private User user;
 
-    public LoginFragmentViewModelFactory(LoginUser user) {
+    public LoginFragmentViewModelFactory(User user) {
         this.user = user;
     }
 

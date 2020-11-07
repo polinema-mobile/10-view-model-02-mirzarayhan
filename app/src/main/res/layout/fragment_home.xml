@@ -6,7 +6,7 @@
     <data>
         <variable
             name="user"
-            type="id.putraprima.mvvmlogin.models.LoginUser" />
+            type="id.putraprima.mvvmlogin.models.User" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
